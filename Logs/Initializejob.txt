@@ -1,0 +1,14 @@
+Starting: Initialize job
+Agent name: 'MyComputer'
+Agent machine name: 'DESKTOP-IIDRB99'
+Current agent version: '2.189.0'
+Agent running as: 'AntsP'
+Prepare build directory.
+Set build variables.
+Download all required tasks.
+Checking job knob settings.
+   Knob: TaskRestrictionsEnforcementMode = Enabled Source: $(agent.taskRestrictionsEnforcementMode) 
+   Knob: EnableTaskRestrictionsTelemetry = true Source: $(agent.enableTaskRestrictionsTelemetry) 
+Finished checking job knob settings.
+Start tracking orphan processes.
+Finishing: Initialize job

@@ -1,0 +1,30 @@
+Starting: JenkinsQueueJob
+==============================================================================
+Task         : Jenkins queue job
+Description  : Queue a job on a Jenkins server
+Version      : 2.189.0
+Author       : Microsoft
+Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/build/jenkins-queue-job
+==============================================================================
+Install the "Team Foundation Server Plug-in" for improved Jenkins integration
+http://172.26.240.1:8090/pluginManager/available
+Jenkins job queued
+Jenkins job pending: http://localhost:8090/job/devops-world/197
+******************************************************************************
+Jenkins job started: devops-world
+http://localhost:8090/job/devops-world/197 
+******************************************************************************
+Started by user Satoru Yano Romero
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Remote in C:/Jenkins/workspace/devops-world
+[Pipeline] {
+[Pipeline] tool
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (GitClone)
+[Pipeline] echo
+Cloning repository
+[Pipeline] git

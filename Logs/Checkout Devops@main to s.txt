@@ -1,0 +1,30 @@
+Starting: Checkout Devops@main to s
+==============================================================================
+Task         : Get sources
+Description  : Get sources from a repository. Supports Git, TfsVC, and SVN repositories.
+Version      : 1.0.0
+Author       : Microsoft
+Help         : [More Information](https://go.microsoft.com/fwlink/?LinkId=798199)
+==============================================================================
+Syncing repository: Devops (Git)
+Prepending Path environment variable with directory containing 'git.exe'.
+git version
+git version 2.30.2.windows.1
+git lfs version
+git-lfs/2.13.3 (GitHub; windows amd64; go 1.16.2; git a5e65851)
+git config --get remote.origin.url
+git clean -ffdx
+git reset --hard HEAD
+HEAD is now at 9d4d0f8 Va a fallar
+git config gc.auto 0
+git config --get-all http.https://***@dev.azure.com/***/devops-world/_git/Devops.extraheader
+git config --get-all http.proxy
+git config http.version HTTP/1.1
+git -c http.extraheader="AUTHORIZATION: bearer ***" fetch --force --tags --prune --progress --no-recurse-submodules origin
+remote: Azure Repos        
+remote: 
+remote: Found 19 objects to send. (15 ms)        
+From https://dev.azure.com/***/devops-world/_git/Devops
+   9d4d0f8..5f72111  main       -> origin/main
+git -c http.extraheader="AUTHORIZATION: bearer ***" fetch --force --tags --prune --progress --no-recurse-submodules origin +5f72111b37e1eb9d58191237b824a4107d3e98b9
+From https://dev.azure.com/***/devops-world/_git/Devops

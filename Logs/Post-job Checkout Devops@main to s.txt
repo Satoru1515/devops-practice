@@ -1,0 +1,10 @@
+Starting: Checkout Devops@main to s
+==============================================================================
+Task         : Get sources
+Description  : Get sources from a repository. Supports Git, TfsVC, and SVN repositories.
+Version      : 1.0.0
+Author       : Microsoft
+Help         : [More Information](https://go.microsoft.com/fwlink/?LinkId=798199)
+==============================================================================
+Cleaning any cached credential from repository: Devops (Git)
+Finishing: Checkout Devops@main to s

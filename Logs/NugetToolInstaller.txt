@@ -1,0 +1,17 @@
+Starting: NuGetToolInstaller
+==============================================================================
+Task         : NuGet tool installer
+Description  : Acquires a specific version of NuGet from the internet or the tools cache and adds it to the PATH. Use this task to change the version of NuGet used in the NuGet tasks.
+Version      : 1.179.0
+Author       : Microsoft Corporation
+Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/tool/nuget
+==============================================================================
+You are using a query match on the version string. Behavior changes or breaking changes might occur as NuGet updates to a new version.
+Found tool in cache: NuGet 5.10.0 x64
+Resolved from tool cache: 5.10.0
+Using version: 5.10.0
+Found tool in cache: NuGet 5.10.0 x64
+Using tool path: C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\_tool\NuGet\5.10.0\x64
+Prepending PATH environment variable with directory: C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\_tool\NuGet\5.10.0\x64
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe" /version /nologo
+Finishing: NuGetToolInstaller

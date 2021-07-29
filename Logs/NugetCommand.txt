@@ -1,0 +1,30 @@
+Starting: NuGetCommand
+==============================================================================
+Task         : NuGet
+Description  : Restore, pack, or push NuGet packages, or run a NuGet command. Supports NuGet.org and authenticated feeds like Azure Artifacts and MyGet. Uses NuGet.exe and works with .NET Framework apps. For .NET Core and .NET Standard apps, use the .NET Core task.
+Version      : 2.179.0
+Author       : Microsoft Corporation
+Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/package/nuget
+==============================================================================
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe" /version /nologo
+SYSTEMVSSCONNECTION exists true
+SYSTEMVSSCONNECTION exists true
+C:\WINDOWS\system32\chcp.com 65001
+Active code page: 65001
+Detected NuGet version 5.10.0.7240 / 5.10.0+dca1d060f38e1e02f6bfca41e25f081f19fd534b.dca1d060f38e1e02f6bfca41e25f081f19fd534b
+SYSTEMVSSCONNECTION exists true
+C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\_tool\NuGet\5.10.0\x64\nuget.exe sources Add -NonInteractive -Name NuGetOrg -Source https://api.nuget.org/v3/index.json -ConfigFile C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\2\Nuget\tempNuGet_68.config
+Package source with Name: NuGetOrg added successfully.
+C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\_tool\NuGet\5.10.0\x64\nuget.exe restore C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\2\s\HiDevops\HiDevops.sln -Verbosity Detailed -NonInteractive -ConfigFile C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\2\Nuget\tempNuGet_68.config
+NuGet Version: 5.10.0.7240
+MSBuild auto-detection: using msbuild version '16.10.2.30804' from 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin'. Use option -MSBuildVersion to force nuget to use a specific version of MSBuild.
+MSBuild P2P timeout [ms]: 120000
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\msbuild.exe "C:\Users\AntsP\AppData\Local\Temp\NuGetScratch\pljlg00r.ygk.nugetinputs.targets" /t:GenerateRestoreGraphFile /nologo /nr:false /v:q /p:NuGetRestoreTargets="C:\Users\AntsP\AppData\Local\Temp\NuGetScratch\4ueqs32g.x2v.nugetrestore.targets" /p:RestoreUseCustomAfterTargets="True" /p:RestoreTaskAssemblyFile="C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\_tool\NuGet\5.10.0\x64\nuget.exe" /p:RestoreSolutionDirectory="C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\2\s\HiDevops\\" /p:RestoreConfigFile="C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\2\Nuget\tempNuGet_68.config" /p:SolutionDir="C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\2\s\HiDevops\\" /p:SolutionName="HiDevops"
+
+Running restore with 12 concurrent jobs.
+Reading project file C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\2\s\HiDevops\HiDevops.csproj.
+The restore inputs for 'HiDevops' have changed. Continuing restore.
+Restoring packages for C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\2\s\HiDevops\HiDevops.csproj...
+Restoring packages for .NETCoreApp,Version=v3.1...
+Resolving conflicts for .NETCoreApp,Version=v3.1...
+Checking compatibility of packages on .NETCoreApp,Version=v3.1.

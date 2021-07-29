@@ -1,0 +1,27 @@
+Version      : 2.170.1
+Author       : Microsoft Corporation
+Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest
+==============================================================================
+SystemVssConnection exists true
+SystemVssConnection exists true
+Running tests using vstest.console.exe runner.
+======================================================
+Test selector : Test assemblies
+Test filter criteria : null
+Search folder : C:\Users\AntsP\Downloads\vsts-agent-win-x64-2.189.0\_work\2\s
+Action when minimum tests threshold not met : donothing
+Minimum tests expected to be run: 0
+VisualStudio version selected for test execution : latest
+Attempting to find vstest.console from a visual studio installation with version [16.0,17.0).
+Run in parallel : false
+Run in isolation : false
+Path to custom adapters : null
+Other console options : null
+Code coverage enabled : false
+Diagnostics enabled : false
+SystemVssConnection exists true
+Run the tests locally using vstest.console.exe
+========================================================
+Source filter: **\*test*.dll,!**\*TestAdapter.dll,!**\obj\**
+##[warning]No test sources found matching the given filter '**\*test*.dll,!**\*TestAdapter.dll,!**\obj\**'
+Finishing: VSTest
